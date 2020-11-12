@@ -12,21 +12,23 @@
 header {
   width: 1200px;
   height: 500px;
+  border: solid orange;
 }
 
 .bkgrd-container {
-  height: 500px;
-  background: #0C325A;
+  width: 100%;
+  height: 80%;
+  border: solid red;
 }
 
 .bkgrd {
   width: 100%;
   height: 100%;
   background-image: url(../img/jumbotron.png);
-  background-size: 100% 100%;
+  background-size: 90% 90%;
   background-repeat: no-repeat;
-  /* background-position: bottom 0 right -70px; */
-  /* margin-top: 150px; */
+  background-position: center;
+  /* background-position: bottom -100px; */
 }
 
 .header-content {
@@ -34,20 +36,56 @@ header {
   height: 300px;
 }
 
-.nav-left {
-  width: 600px;
-  height: 60px;
-  margin-top: 10px;
-}
 .logo {
   margin-right: 20px;
   margin-top: 10px;
 }
 
-.nav-right {
-  width: 400px;
-  height: 60px;
-  margin-top: 10px;
+nav {
+ height: 60px;
+ border: solid orange;
+ background: #F4F9FD;
+}
+
+.nav-left-top {
+  /* width: 600px; */
+  line-height: 60px;
+  /* margin-top: 10px; */
+}
+
+.nav-right-bottom {
+  /* width: 400px; */
+  line-height: 60px;
+  /* margin-top: 10px; */
+}
+
+.nav-left-bottom{
+  /* width: 600px; */
+  line-height: 60px;
+  /* margin-top: 10px; */
+}
+
+.nav-right-top {
+  /* width: 400px; */
+  line-height: 60px;
+  /* margin-top: 10px; */
+}
+
+
+
+.nav-button {
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.btn-style {
+  background: #fff;
+  border: 1px solid #FE775A;
+  padding: 10px 15px;
+  color: orange;
 }
 
 .nav {
@@ -294,20 +332,8 @@ select {
   clear: both;
 }
 
-.button {
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 10px;
-}
-
 .orange {
   background-color: #FE775A;
 }
 
-.btn-style {
-  border: 1px solid white;
-  padding: 10px 25px;
-}
 /* /utility */
