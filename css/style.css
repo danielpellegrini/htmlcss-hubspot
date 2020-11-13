@@ -1,3 +1,4 @@
+/* header */
 .nav-top {
   background-color: #f4f9fd;
   height: 80px;
@@ -88,7 +89,7 @@
 }
 
 .jumbotron-text {
-  width: 45%;
+  width: 40%;
   padding-top: 50px;
 }
 
@@ -99,7 +100,7 @@
 
 .jumbotron-text p:nth-child(2){
   padding: 30px 0 ;
-  font-size: 13px;
+  font-size: 14px;
   color: #415667;
 }
 
@@ -108,6 +109,25 @@
   font-size: 10px;
   color: #415667;
 }
+/* /header */
+
+/* main content */
+
+.body-container h2:nth-child(2){
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.body-container img:first-child {
+ margin: 0 auto;
+ text-align: center;
+ display: block;
+ padding-top: 40px;
+}
+
+
+/* main content */
 
 
 /* Utility */
