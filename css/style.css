@@ -335,7 +335,6 @@ main {
 
 .customers {
 background: #fff;
-height: 1200px;
 }
 
 .customers h1 {
@@ -360,19 +359,17 @@ height: 1200px;
 }
 
 .logo-grid {
-  width: 50%;
-  /* height: 200px; */
-  /* padding: 40px 0; */
+  width: 70%;
+  padding: 40px 0;
 }
 
 .logo-grid div {
-  width: 24%;
+  width: 160px;
   display: inline-block;
 }
 
 .logo-grid img {
   width: 150px;
-  line-height: 200px;
   padding: 0 20px;
 }
 
@@ -390,17 +387,56 @@ height: 1200px;
 
 .content-bottom-l p {
   text-align: left;
-  font-size: 10px;
-  padding: 40px 0;
+  font-size: 12px;
+  padding: 50px 0;
 }
 
 .content-bottom-r img{
-  width: 350px;
+  width: 300px;
+  padding-right: 30px;
   /* height: 400px; */
 }
-
-
 /* /main content */
+
+/* footer */
+
+.footer, .footer-languages {
+  background: #33475B;
+  color: white;
+}
+
+.footer ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+  font-size: 12px;
+}
+
+.footer li:first-child {
+  padding: 20px 50px;
+  font-weight: bolder;
+}
+
+.footer li:nth-child(1n+2) {
+  padding: 0 50px 20px 50px;
+}
+
+.footer li:last-child i{
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.footer-languages {
+  text-align: center;
+  font-size: 12px;
+  padding: 30px;
+  border-bottom: 1px solid white;
+}
+
+.footer-languages li {
+  display: inline-block;
+  padding: 10px;
+}
 
 /* Utility */
 
