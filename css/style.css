@@ -96,13 +96,16 @@
   font-size: 40px;
 }
 
-.jumbotron-text p:nth-child(2){
+.jumbotron-text p {
+  text-align: left;
   padding: 30px 0 ;
+}
+
+.jumbotron-text p:nth-child(2){
   font-size: 14px;
 }
 
 .jumbotron-text p:nth-child(4){
-  padding: 30px 0 ;
   font-size: 10px;
 }
 
@@ -124,7 +127,7 @@ main {
  margin: 0 auto;
  text-align: center;
  display: block;
- padding-top: 40px;
+ /* padding-top: 40px; */
 }
 
 .body-container h3:nth-child(3){
@@ -135,16 +138,21 @@ main {
   margin: 0 auto;
 }
 
+.cube img{
+  padding-top: 40px;
+}
+
 .img-container {
   width: 33.33%;
   height: 90%;
   position: relative;
+  padding: 40px 0;
 }
 
 .img-container img:first-child {
   height: 50%;
   width: 40%;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .text-container-top {
@@ -194,7 +202,7 @@ main {
 .card-holder a:nth-child(2), .bottom a {
   padding: 20px 45px;
   font-size: 13px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .card-holder .top:first-child:hover {
@@ -278,18 +286,16 @@ main {
 
 /* home community */
 
-
-
 .home-community {
   background: linear-gradient(45deg,#00a4bd,#00bda5);
   color: white;
-  height: 1200px;
+  padding: 100px 0;
 }
 
 .home-community h3:first-child {
   text-align: center;
   font-size: 32px;
-  padding: 40px 0;
+  padding-bottom: 20px;
 }
 
 .grid {
@@ -298,11 +304,13 @@ main {
 
 .grid-content {
   margin: 0 auto;
+  margin-top: 60px;
   /* margin-top: 25px; */
 }
 
 .grid-content div {
   width: 25%;
+  padding: 25px;
 }
 
 .right {
@@ -313,24 +321,83 @@ main {
   border-bottom: 1px solid white;
 }
 
-.padding-text p, .padding-text h6{
-  padding: 10px 0;
-}
-
 .grid p:nth-child(1n+1) {
   font-weight: bolder;
   font-size: 50px;
-  padding-top: 20px;
 }
+
 .grid span:nth-child(1n+1) {
   font-weight: lighter;
   font-size: 40px;
   padding-left: 10px;
 }
-
-
-
 /* /home community */
+
+.customers {
+background: #fff;
+height: 1200px;
+}
+
+.customers h1 {
+  font-size: 40px;
+}
+
+.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-wrapper {
+  width: 20%;
+  padding: 30px 0;
+}
+
+.text-wrapper p {
+  text-align: left;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.logo-grid {
+  width: 50%;
+  /* height: 200px; */
+  /* padding: 40px 0; */
+}
+
+.logo-grid div {
+  width: 24%;
+  display: inline-block;
+}
+
+.logo-grid img {
+  width: 150px;
+  line-height: 200px;
+  padding: 0 20px;
+}
+
+.content-bottom {
+  width: 40%;
+}
+
+.content-bottom-l {
+  padding-right: 50px;
+}
+
+.content-bottom-l h2 {
+  padding-top: 40px;
+}
+
+.content-bottom-l p {
+  text-align: left;
+  font-size: 10px;
+  padding: 40px 0;
+}
+
+.content-bottom-r img{
+  width: 350px;
+  /* height: 400px; */
+}
 
 
 /* /main content */
