@@ -281,10 +281,9 @@ main {
 
 
 .home-community {
-  background-color: #00B8AA;
+  background: linear-gradient(45deg,#00a4bd,#00bda5);
   color: white;
   height: 1200px;
-  position: relative;
 }
 
 .home-community h3:first-child {
@@ -293,14 +292,34 @@ main {
   padding: 40px 0;
 }
 
-.grid
-
-.grid img:nth-child(1n+1) {
-  width: 50px;
+.home-community p:nth-child() {
+  padding-bottom: 25px;
 }
 
-.grid p:nth-child(1n+1) {
+.grid {
   text-align: center;
+}
+
+.grid-content {
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.grid-content div {
+  width: 25%;
+  padding: 40px;
+}
+
+
+
+.grid p:nth-child(1n+1) {
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 20px 10px;
+}
+.grid span:nth-child(1n+1) {
+  font-weight: lighter;
+  font-size: 50px;
 }
 
 
